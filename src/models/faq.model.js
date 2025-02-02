@@ -1,22 +1,22 @@
-import mongoose from "mongoose"; 
+import mongoose from "mongoose";
 
 // define faq schema
 const faqSchema = new mongoose.Schema({
-    question: { 
-        type: String, 
-        required: true 
+    question: {
+        type: String,
+        required: true
     },
-    answer: { 
-        type: String, 
-        required: true 
+    answer: {
+        type: String,
+        required: true
     },
-    translations: { 
-        hi: { 
-            type: String 
-        }, 
-        bn: { 
-            type: String 
-        } 
+    translations: {
+        hi: {
+            type: String
+        },
+        bn: {
+            type: String
+        }
     }
 });
 

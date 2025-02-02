@@ -5,13 +5,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha 'test/**/*.js' --timeout 5000",
     "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai-http": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -24,6 +25,7 @@
     "redis": "^4.7.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.19.0",
     "chai": "^5.1.2",
     "eslint": "^9.19.0",
     "mocha": "^11.1.0",

@@ -1,10 +1,15 @@
-import Redis from "ioredis";
-import dotenv from "dotenv";
 
-dotenv.config();
+import Redis from "ioredis"; 
+import dotenv from "dotenv"; 
 
-const redisClient = new Redis(process.env.REDIS_URI);
+// load env variables
+dotenv.config(); 
 
-redisClient.on("error", (err) => console.error("Redis Error:", err));
+// create redis client
+const redisClient = new Redis(process.env.REDIS_URI); 
 
-export default redisClient;
+// handle redis error
+redisClient.on("error", (err) => console.error("Redis Error:", err)); 
+
+// export redis client
+export default redisClient; 
