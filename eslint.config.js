@@ -1,5 +1,7 @@
 import js from "@eslint/js";
 
+
+
 export default [
   js.configs.recommended,
   {
@@ -9,9 +11,9 @@ export default [
       globals: {
         process: "readonly",
         console: "readonly",
-        describe: "readonly", 
-        it: "readonly", 
-        expect: "readonly" 
+        describe: "readonly",
+        it: "readonly",
+        expect: "readonly"
       }
     },
     rules: {
