@@ -35,8 +35,8 @@ Ensure you have the following installed on your system:
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-cachinge.git
-   cd multilingual-FAQ-API-with-Redis-caching
+    git clone [https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-cachinge.git](https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-caching.git)
+   cd multilingual-FAQ-API-with-Redis-cachinge
    ```
 
 2. **Install Dependencies**
@@ -171,8 +171,8 @@ npm test
 
 2. **Clone Your Fork**
    ```bash
-   git clone https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-cachinge.git
-   cd multilingual-FAQ-API-with-Redis-caching
+   git clone [https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-cachinge.git](https://github.com/imShubh03/multilingual-FAQ-API-with-Redis-caching.git)
+   cd multilingual-FAQ-API-with-Redis-cachinge
    ```
 
 3. **Create a New Branch**
